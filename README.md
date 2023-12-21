@@ -109,7 +109,11 @@ java -jar classfinal-fatjar.jar -C
 启动jar项目执行以下命令：
 
 ```sh
+linux环境：
 java -javaagent:yourpaoject-encrypted.jar='-pwd 0000000' -jar yourpaoject-encrypted.jar
+
+windows环境：
+java -javaagent:yourpaoject-encrypted.jar="-pwd 0000000" -jar yourpaoject-encrypted.jar
 
 //参数说明
 // -pwd      加密项目的密码  
